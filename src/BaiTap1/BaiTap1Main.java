@@ -15,7 +15,11 @@ public class BaiTap1Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       NhanVien nv = new NhanVien("Thao", 22, "Quang Tri", 300, 100);
+        NhanVien nv1 = new NhanVien("Ly", 22, "Khanh Hoa", 300, 200);
+        System.out.println(nv.getThongTin());
+        System.out.println("----------------------------");
+        System.out.println(nv1.getThongTin());
     }
     
 }
